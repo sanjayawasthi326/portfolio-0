@@ -1,0 +1,155 @@
+h6 {
+    font-size: 50px;
+}
+
+
+@media (max-width: 991px) {
+    .nav_menu {
+        display: none;
+    }
+    .link_btn2 {
+        display: none;
+    }
+    .links_btn{
+        display: none;
+    }
+    .classy-navbar-toggler{
+        display: block!important;
+    }
+}
+
+/*slider responsive----------------------------------------------------*/
+@media (max-width: 991px) {
+    .slider_wrapper .slider_text h2 {
+        font-size: 62px!important;
+    }
+    .slider_wrapper .slider_text h1 {
+        font-size: 60px!important;
+    }
+    .slider_wrapper .slider_text h1::after {
+        top: 40px;
+        height: 15px;
+    
+    }
+}
+
+@media (max-width: 767px) {
+    .slider_wrapper .slider_text h2 {
+        font-size: 42px!important; 
+    }
+ 
+    .slider_wrapper .slider_text h5 {
+        font-size: 20px!important;
+        
+}
+}
+
+/*about_section*/
+@media (max-width: 991px){
+    .count_down-wrapper .countdown-flex{
+margin-top: 50px;
+    }
+    .count_down-wrapper .count_text h6{
+margin-top: 50px;
+        
+    }
+}
+
+/*footer section*/
+@media (max-width: 767px){
+    .footer_wrapper .ftr_text {
+       text-align: center; 
+    }
+    .ftr_nav{
+        text-align: center;
+    }
+}
+
+
+/*schedule section*/
+@media (max-width: 767px){
+    .schedule_wrapper .schedule_nav li a{
+        font-size: 14px!important;
+    }
+    .schedule_wrapper .schedule_nav li span{
+        font-size: 12px!important;
+    }
+    #link_schedule{
+        width: 100%;
+        font-size: 15px;
+    }
+    .single_tab-texts .schedule_place {
+      margin: 20px 0;
+    }
+    
+}
+@media (max-width: 575px) {
+    .schedule_wrapper .schedule_nav li a{
+        font-size: 12px!important;
+        padding: 10px 15px!important;
+    }
+    .schedule_wrapper .schedule_nav li span{
+        font-size: 10px!important;
+    }
+
+}
+
+/*sponsor section*/
+@media (max-width: 991px) {
+    .sponsor_content .sponsor_ours{
+        height: 150px!important;
+    }
+    .sponsor_ours img{
+       max-width: 50%;
+        }
+}
+
+@media (max-width: 767px) {
+    .sponsor_content .sponsor_ours{
+        height: 80px!important;
+    }
+    
+}
+
+/*blo section*/
+@media ( min-width:992px) and (max-width: 1199px) {
+    .blog_card .blog_content .blog_link a{
+        font-size: 11px!important;
+    margin-right: 10px!important;
+      }
+    
+}
+
+@media(max-width: 991px) {
+    .blog_card .blog_content .blog_link a{
+        font-size: 12px!important;
+   
+      }
+    
+}
+
+@media(max-width: 767px) {
+    .blog_wrapper .blog_card .blog_btn{
+     left: 43%!important;
+    }
+}
+
+@media(max-width: 991px) {
+    .full-image img{
+        width: 35%!important;
+    }
+}
+
+@media(max-width: 767px) {
+    .full-image img{
+        width: 50%!important;
+  }
+}  
+
+@media(max-width: 575px) {
+    .full-image img{
+        width: 70%!important;
+  }
+}  
+
+
